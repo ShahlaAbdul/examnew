@@ -1,0 +1,92 @@
+#our_best_services_container {
+    background-image: url("https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/section_bg02.jpg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 90vh;
+
+    .our_best_services_container {
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+        //    padding: 100px 0px;
+        display: flex;
+        justify-content: start;
+        gap: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        .best_services_image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 550px;
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 70%;
+            }
+        }
+
+        .our_top_services {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40PX;
+            width: 600px;
+            color: #fff;
+            font-size: 20px;
+            line-height: 30px;
+            border: 2PX SOLID GRAY;
+
+            .head_text {
+                font-size: 18px;
+                color: #b3b3b3;
+            }
+
+            .h1text {
+                font-size: 40px;
+
+            }
+
+            .ptext2 {
+                font-size: 14px;
+                color: #b3b3b3;
+            }
+
+            .button {
+                background-color: #dc1d46;
+                width: 250px;
+                padding: 10px 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #dc1d46;
+                font-size: 16px;
+                background: linear-gradient(#dc1d46, #dc1d46 50%, #fff 50%, #fff);
+                display: block;
+
+                background: linear-gradient(to right, #dc1d46 50%, white 50%);
+                background-size: 200% 100%;
+                background-position: right bottom;
+                transition: all .5s ease-out;
+                
+            &:hover {
+                background-position: left bottom;
+                color: #fff;
+            }
+
+            }
+
+            // &:hover {
+            //     background-color: white;
+            //     color: red;
+            //     cursor: pointer;
+            //    transition: all 400ms ease-in-out;
+            // }
+        
+    }
+
+}
+
+}

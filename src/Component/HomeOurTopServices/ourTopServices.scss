@@ -1,0 +1,24 @@
+#our_top_services_container{
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border: 1px solid gray;
+    .our_top_services_context{
+        width: 70%;
+        margin: 0 auto;
+         gap: 30px;
+         padding: 20px 0px;
+
+        display: flex;
+        flex-direction: column;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    .center_text_head{
+        color: red;
+    }
+    h1{
+        font-size: 44px;
+    }
+}

@@ -1,0 +1,45 @@
+#we_help_to_grow{
+    background-image:url( "https://preview.colorlib.com/theme/consultingbiz/assets/img/hero/h1_hero.jpg.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:auto;
+    height: 90vh;
+    .center_text_container{
+        display: flex;
+        align-items: center;
+        padding: 100px 0px;
+    .center_text{
+       gap: 40px;
+        padding: 20px 0px;
+        width: 45%;
+        margin: 100px 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+        .center_text_head{
+            color: #dc1d46;
+        }
+        h1{
+            font-size: 100px;
+            line-height: 100px;
+            font-family: 'Lato', sans-serif;
+        }
+        .button{
+            background-color: #dc1d46;
+            width: 200px;
+            padding: 20px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            &:hover {
+                background-color: white;
+                color: #dc1d46;
+                cursor: pointer;
+               transition: all 400ms ease-in-out;
+            }
+        }
+    }
+}
+}

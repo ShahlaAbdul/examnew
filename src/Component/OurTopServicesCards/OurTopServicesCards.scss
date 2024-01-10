@@ -1,0 +1,51 @@
+.our_services_cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    .our_services_card_container{
+        width: 350px;
+        height: 400px;
+        box-shadow: rgba(100, 100, 111, 0.4) 0px 2px 29px 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px 40px;
+
+  padding: 1em 0.5em;
+  cursor: pointer;
+  background: linear-gradient(#ffffff, #ffffff 50%, #d01010 50%, #d01010);
+  background-size: 100% 200%;
+  transition: background 700ms;
+  &:hover {
+    background-position: 100% 100%;
+    .our_services_card  {
+        color: #ffffff;
+        .card_image{
+            color: #ffffff;
+        }
+        .card_name{
+            color: #ffffff;
+        }
+    }
+   
+  }
+
+        .our_services_card{
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            height: 100%;
+            .card_image{
+                font-size: 60px;
+                color: red;
+            }
+            .card_name{
+                font-weight: 600;
+                font-size: 23px;
+                color: rgba(39, 38, 73, 0.86);
+            }
+
+        }
+    }
+}
