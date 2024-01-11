@@ -6,11 +6,13 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter >
-    <Routes> 
-      <Route element= {<MainLayout></MainLayout>}>
+      <Routes> 
+       
+       <Route element= {<MainLayout></MainLayout>}>
         <Route path='/' element={<HomePage></HomePage>} ></Route>
         <Route path='/add' element={<AddPage></AddPage>} ></Route>
-      </Route>
+        </Route>
+      
     </Routes>
   </BrowserRouter>
   );

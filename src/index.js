@@ -1,13 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import SearchProvider from "./UseContext/SearchContext";
+import {  HelmetProvider } from "react-helmet-async";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <HelmetProvider>
+      <SearchProvider>
+        <App />
+      </SearchProvider>
+    </HelmetProvider>
   </React.StrictMode>
 );
-
-
